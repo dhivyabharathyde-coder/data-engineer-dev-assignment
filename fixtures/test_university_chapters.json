@@ -1,0 +1,34 @@
+[
+  {
+    "chapter_id": "TEST-001",
+    "chapter_name": "Valid California Chapter",
+    "city": "Los Angeles",
+    "state": "CA",
+    "longitude": -118.2437,
+    "latitude": 34.0522
+  },
+  {
+    "chapter_id": "TEST-002",
+    "chapter_name": "Invalid Coordinate Chapter",
+    "city": "San Francisco",
+    "state": "CA",
+    "longitude": 200.0,
+    "latitude": 37.7749
+  },
+  {
+    "chapter_id": "TEST-003",
+    "chapter_name": "Missing City Chapter",
+    "city": null,
+    "state": "CA",
+    "longitude": -121.8863,
+    "latitude": 37.3382
+  },
+  {
+    "chapter_id": "TEST-004",
+    "chapter_name": "Unknown City Chapter",
+    "city": "UNKNOWN",
+    "state": "CA",
+    "longitude": -122.4194,
+    "latitude": 37.7749
+  }
+]
