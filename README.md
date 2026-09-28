@@ -209,8 +209,8 @@ The current implementation is manually runnable for this take-home assignment.
 * DQ-W1 missing/blank/UNKNOWN city is warning-only.
 * Quarantined records must never appear in Gold.
 * OR and WA are allowed to contain zero rows.
-* An entirely empty batch should fail or raise an alert rather than silently publish an empty Gold dataset.
-* A CA row count of zero should fail or raise an alert because CA is expected to have data.
+* An entirely empty batch should be treated as a failure condition rather than silently publishing an empty Gold dataset.
+* A CA row count of zero should be treated as a failure condition because CA is expected to have data.
 
 ### Versioning
 
